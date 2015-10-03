@@ -1,0 +1,23 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+
+    script(src="inc/shim/Base64.js")
+    script(src="inc/shim/Base64binary.js")
+    script(src="inc/shim/WebAudioAPI.js")
+
+    script(src="js/midi/audioDetect.js")
+    script(src="js/midi/gm.js")
+    script(src="js/midi/loader.js")
+    script(src="js/midi/player.js")
+    script(src="js/midi/plugin.audiotag.js")
+    script(src="js/midi/plugin.webaudio.js")
+    script(src="js/midi/plugin.webmidi.js")
+
+    script(src="js/util/dom_request_xhr.js")
+    script(src="js/util/dom_request_script.js")
+    script(src="js/main.js")
+  body
+    block content
